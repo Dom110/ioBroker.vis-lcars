@@ -2,7 +2,7 @@
 
     ioBroker.vis lcars Widget-Set
 
-    version: "1.0.4"
+    version: "1.0.5"
 
     2013-2017 hobbyquaker, bluefox
 
@@ -94,7 +94,7 @@
     }
     
     vis.binds.lcars = {
-        version: "1.0.4",
+        version: "1.0.5",
         showVersion: function () {
             if (vis.binds.lcars.version) {
                 console.log('Version lcars: ' + vis.binds.lcars.version);
@@ -556,12 +556,29 @@
     </div>
 </script>
 
-<script id="tplLcarsUfpLogo"
+<script id="
+            o"
         type="text/ejs"
         class="vis-tpl"
         data-vis-set="lcars"
         data-vis-type="static"
         data-vis-name="UFP Logo"
+        data-vis-prev='<div id="prev_tplLcarsUfpLogo" style="position: relative; text-align: initial;padding: 4px "><div class="vis-widget_prev ui-draggable-handle " style="width: 93px; height: 70px; padding: 0px; margin: 0px; position: absolute;" > <div class="vis-widget-prev-body"> <img width="100%" src="widgets/lcars/img/ufp.png"> </div> </div></div>'
+        data-vis-attrs=""
+        >
+    <div class="vis-widget <%== this.data.attr('class') %>" style="width: 531px; height: 409px;padding:0;margin:0" id="<%= this.data.attr('wid') %>">
+        <div class="vis-widget-body">
+            <img width="100%" src="widgets/lcars/img/1024px-StarfleetCommandEmblemVectorized.svg.png"/>
+        </div>
+    </div>
+</script>
+
+<script id="tplLcarsUfpLogo2"
+        type="text/ejs"
+        class="vis-tpl"
+        data-vis-set="lcars"
+        data-vis-type="static"
+        data-vis-name="YAUFP Logo"
         data-vis-prev='<div id="prev_tplLcarsUfpLogo" style="position: relative; text-align: initial;padding: 4px "><div class="vis-widget_prev ui-draggable-handle " style="width: 93px; height: 70px; padding: 0px; margin: 0px; position: absolute;" > <div class="vis-widget-prev-body"> <img width="100%" src="widgets/lcars/img/ufp.png"> </div> </div></div>'
         data-vis-attrs=""
         >
