@@ -1,8 +1,12 @@
 {
     "common": {
         "name": "vis-lcars",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "news": {
+            "1.0.5": {
+                "en": "created new fork",
+                "de": "Neuen Fork erstellt"
+            },
             "1.0.4": {
                 "en": "fix render of state on slow devices",
                 "de": "Korrigiere Rendering von State auf langsamen Geräten",
@@ -34,7 +38,7 @@
             "graphical",
             "scada"
         ],
-        "readme": "https://github.com/ioBroker/ioBroker.vis-lcars/blob/master/README.md",
+        "readme": "https://github.com/Dom110/ioBroker.vis-lcars/blob/master/README.md",
         "authors": [
             "hobbyquaker <hq@ccu.io>"
         ],
